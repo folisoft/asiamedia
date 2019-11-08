@@ -1,0 +1,595 @@
+Author:
+[
+    {
+        "AuthorId":"1",
+        "AuthorName":"VINCOM",
+        "CountryName":"Hà Nội City",
+        "ProjectAmt":"1",
+        "VoteAmt":"44",
+        "CertAmt":"3"
+    },
+    {
+        "AuthorId":"2",
+        "AuthorName":"Binh Thuan Province",
+        "CountryName":"Phan Thiet City",
+        "ProjectAmt":"1",
+        "VoteAmt":"5",
+        "CertAmt":"4"
+    },
+    {
+        "AuthorId":"3",
+        "AuthorName":"CHER AMI",
+        "CountryName":"France",
+        "ProjectAmt":"1",
+        "VoteAmt":"10",
+        "CertAmt":"5"
+    },
+    {
+        "AuthorId":"4",
+        "AuthorName":"BEAUTIFUL PLACE",
+        "CountryName":"Tuy Hoa",
+        "ProjectAmt":"1",
+        "VoteAmt":"16",
+        "CertAmt":"3"
+    },
+    {
+        "AuthorId":"5",
+        "AuthorName":"ANDREW BAYGULOV",
+        "CountryName":"United States",
+        "ProjectAmt":"1",
+        "VoteAmt":"24",
+        "CertAmt":"8"
+    },
+    {
+        "AuthorId":"6",
+        "AuthorName":"HOVERCRAFT",
+        "CountryName":"United States",
+        "ProjectAmt":"1",
+        "VoteAmt":"22",
+        "CertAmt":"6"
+    },
+    {
+        "AuthorId":"7",
+        "AuthorName":"RAAKCREATIVE",
+        "CountryName":"Australia",
+        "ProjectAmt":"1",
+        "VoteAmt":"11",
+        "CertAmt":"2"
+    },
+    {
+        "AuthorId":"8",
+        "AuthorName":"DPDK",
+        "CountryName":"Netherlands",
+        "ProjectAmt":"1",
+        "VoteAmt":"14",
+        "CertAmt":"6"
+    },
+    {
+        "AuthorId":"9",
+        "AuthorName":"RAAKCREATIVE",
+        "CountryName":"Australia",
+        "ProjectAmt":"1",
+        "VoteAmt":"11",
+        "CertAmt":"2"
+    },
+    {
+        "AuthorId":"10",
+        "AuthorName":"Discover",
+        "CountryName":"Netherlands",
+        "ProjectAmt":"1",
+        "VoteAmt":"11",
+        "CertAmt":"6"
+    },
+    {
+        "AuthorId":"11",
+        "AuthorName":"RAAKCREATIVE",
+        "CountryName":"Australia",
+        "ProjectAmt":"1",
+        "VoteAmt":"11",
+        "CertAmt":"2"
+    },
+    {
+        "AuthorId":"12",
+        "AuthorName":"RETAIL 710",
+        "CountryName":"Australia",
+        "ProjectAmt":"1",
+        "VoteAmt":"12",
+        "CertAmt":"4"
+    },
+    {
+        "AuthorId":"13",
+        "AuthorName":"AWWWARDS",
+        "CountryName":"United States",
+        "ProjectAmt":"2",
+        "VoteAmt":"21",
+        "CertAmt":"6"
+    },
+    {
+        "AuthorId":"14",
+        "AuthorName":"AKUFEN",
+        "CountryName":"Australia",
+        "ProjectAmt":"1",
+        "VoteAmt":"19",
+        "CertAmt":"5"
+    }
+]
+
+
+Project:
+
+[
+    {
+        "ProjectId":"1",
+        "ProjectName":"Trần Duy Hưng",
+        "TagId":"1",
+        "ImgUrl":"2.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Vincom",
+        "CreatedDate":"August 15, 2019"
+    },
+    {
+        "ProjectId":"2",
+        "ProjectName":"Phan Thiet city",
+        "TagId":"1",
+        "ImgUrl":"5.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Binh Thuan Province",
+        "CreatedDate":"August 14, 2019"
+    },
+    {
+        "ProjectId":"3",
+        "ProjectName":"Cher Ami",
+        "TagId":"1",
+        "ImgUrl":"7.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"cher ami",
+        "CreatedDate":"August 13, 2019"
+    },
+    {
+        "ProjectId":"4",
+        "ProjectName":"Frankly Steve",
+        "TagId":"1",
+        "ImgUrl":"10.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Beautiful Place",
+        "CreatedDate":"August 12, 2019"
+    },
+    {
+        "ProjectId":"5",
+        "ProjectName":"Revølve with Augmented Reality",
+        "TagId":"1",
+        "ImgUrl":"11.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Andrew Baygulov",
+        "CreatedDate":"August 11, 2019"
+    },
+    {
+        "ProjectId":"6",
+        "ProjectName":"Hovercraft",
+        "TagId":"1",
+        "ImgUrl":"14.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Hovercraft",
+        "CreatedDate":"August 10, 2019"
+    },
+    {
+        "ProjectId":"7",
+        "ProjectName":"The Balcony Garden",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2019/08/5d5398a4930d5997284198.jpg 1x, https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/08/5d5398a4930d5997284198.jpg 2x",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"raakcreative",
+        "CreatedDate":"August 09, 2019"
+    },
+    {
+        "ProjectId":"8",
+        "ProjectName":"Ortec.com",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2019/08/5d51500dea981287161247.jpg 1x, https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/08/5d51500dea981287161247.jpg 2x",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"DPDK",
+        "CreatedDate":"August 08, 2019"
+    },
+    {
+        "ProjectId":"9",
+        "ProjectName":"Discover",
+        "TagId":"1",
+        "ImgUrl":"30.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 10, 2019"
+    },
+    {
+        "ProjectId":"10",
+        "ProjectName":"Big Drop Inc",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/avatar/186218/5954be0943450.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 10, 2019"
+    },
+    {
+        "ProjectId":"11",
+        "ProjectName":"Avex",
+        "TagId":"1",
+        "ImgUrl":"30.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 10, 2019"
+    },
+    {
+        "ProjectId":"12",
+        "ProjectName":"Crafted",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/avatar/310909/5954be6a19c32.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 15, 2019"
+    },
+    {
+        "ProjectId":"13",
+        "ProjectName":"First Speakers Revealed for Awwwards Conference in Tokyo 2020",
+        "TagId":"1",
+        "ImgUrl":"50.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 15, 2019"
+    },
+    {
+        "ProjectId":"14",
+        "ProjectName":"+100 Inspirational Talks for Digital Thinkers",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/media/cache/thumb_834_598/external/2019/08/5d53dc3da156a577651858.jpg 1x,https://assets.awwwards.com/awards/media/cache/thumb_834_598/external/2019/08/5d53dc3da156a577651858.jpg 2x",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 15, 2019"
+    },
+    {
+        "ProjectId":"15",
+        "ProjectName":"Colorful animated transition",
+        "TagId":"2",
+        "ImgUrl":"",
+        "ImgUrl1":"",
+        "VideoUrl":"https://assets.awwwards.com/assets/videos/blank.mp4",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 15, 2019"
+    },
+    {
+        "ProjectId":"16",
+        "ProjectName":"Talk: Mailchimp's Director of Brand Design, Brandy Porter - Being weird will grow your brand",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/images/2019/08/talk-brandy-mailchimp.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 10, 2019"
+    },
+    {
+        "ProjectId":"17",
+        "ProjectName":"Talk: Human Centered Design with Design Lead at Fantasy Interactive, Peter Smart",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/images/2019/08/peter-smart.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 13, 2019"
+    },
+    {
+        "ProjectId":"18",
+        "ProjectName":"5 Essential Traits of Iconic Logos",
+        "TagId":"1",
+        "ImgUrl":"51.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"Asia Media VietNam",
+        "CreatedDate":"August 13, 2019"
+    },
+    {
+        "ProjectId":"19",
+        "ProjectName":"Website Optimization: 17 Tools To Help Improve Your Website in 2019",
+        "TagId":"1",
+        "ImgUrl":"https://assets.awwwards.com/awards/images/2019/07/web-optimization-thumbnail.jpg",
+        "ImgUrl1":"",
+        "VideoUrl":"",
+        "AuthorName":"AWWWARDS",
+        "CreatedDate":"August 01, 2019"
+    },
+    {
+        "ProjectId":"20",
+        "ProjectName":"Portfolio project page infinite scroll navigation - Akufen Studio",
+        "TagId":"2",
+        "ImgUrl":"",
+        "ImgUrl1":"",
+        "VideoUrl":"TVC Màn hình led chợ TP Tuy Hòa.mp4",
+        "AuthorName":"AKUFEN",
+        "CreatedDate":"August 05, 2019"
+    }
+]
+
+Project detail:
+
+[
+    {
+        "ProjectId":"1",
+        "ProjectName":"Trần Duy Hưng",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"phố Trần Duy Hưng",
+        "Votes":"20"
+    },
+    {
+        "ProjectId":"2",
+        "ProjectName":"Phan Thiet city",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Phan Thiet city",
+        "Votes":"18"
+    },
+    {
+        "ProjectId":"3",
+        "ProjectName":"Cher Ami",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Cher Ami",
+        "Votes":"11"
+    },
+    {
+        "ProjectId":"4",
+        "ProjectName":"Frankly Steve",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Frankly Steve",
+        "Votes":"22"
+    },
+    {
+        "ProjectId":"5",
+        "ProjectName":"Revølve with Augmented Reality",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Augmented Reality",
+        "Votes":"26"
+    },
+    {
+        "ProjectId":"6",
+        "ProjectName":"Hovercraft",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Hovercraft",
+        "Votes":"14"
+    },
+    {
+        "ProjectId":"7",
+        "ProjectName":"The Balcony Garden",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"The Balcony Garden",
+        "Votes":"45"
+    },
+    {
+        "ProjectId":"8",
+        "ProjectName":"Ortec.com",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Ortec",
+        "Votes":"29"
+    },
+    {
+        "ProjectId":"9",
+        "ProjectName":"Discover",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Discover",
+        "Votes":"20"
+    },
+    {
+        "ProjectId":"10",
+        "ProjectName":"Big Drop Inc",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Big Drop",
+        "Votes":"20"
+    },
+    {
+        "ProjectId":"11",
+        "ProjectName":"Avex",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Avex",
+        "Votes":"15"
+    },
+    {
+        "ProjectId":"12",
+        "ProjectName":"Crafted",
+        "Tag":[
+            {
+                "TagId":"1",
+                "TagName":"Directory"
+            }
+        ],
+        "Description":"Crafted",
+        "Votes":"24"
+    },
+    {
+        "ProjectId":"13",
+        "ProjectName":"First Speakers Revealed for Awwwards Conference in Tokyo 2020",
+        "Tag":[
+            {
+                "TagId":"3",
+                "TagName":"Articles"
+            }
+        ],
+        "Description":"First Speakers Revealed for Awwwards Conference in Tokyo 2020",
+        "Votes":"20"
+    },
+    {
+        "ProjectId":"14",
+        "ProjectName":"+100 Inspirational Talks for Digital Thinkers",
+        "Tag":[
+            {
+                "TagId":"3",
+                "TagName":"Articles"
+            }
+        ],
+        "Description":"Inspirational Talks for Digital Thinkers",
+        "Votes":"20"
+    },
+    {
+        "ProjectId":"15",
+        "ProjectName":"Colorful animated transition",
+        "Tag":[
+            {
+                "TagId":"4",
+                "TagName":"Transitions"
+            }
+        ],
+        "Description":"Colorful animated transition",
+        "Votes":"13"
+    },
+    {
+        "ProjectId":"16",
+        "ProjectName":"Talk: Mailchimp's Director of Brand Design, Brandy Porter - Being weird will grow your brand",
+        "Tag":[
+            {
+                "TagId":"2",
+                "TagName":"Video"
+            }
+        ],
+        "Description":"Mailchimp's Director of Brand Design",
+        "Votes":"27"
+    },
+    {
+        "ProjectId":"17",
+        "ProjectName":"Talk: Human Centered Design with Design Lead at Fantasy Interactive, Peter Smart",
+        "Tag":[
+            {
+                "TagId":"2",
+                "TagName":"Video"
+            }
+        ],
+        "Description":"Human Centered Design with Design Lead at Fantasy Interactive",
+        "Votes":"16"
+    },
+    {
+        "ProjectId":"18",
+        "ProjectName":"5 Essential Traits of Iconic Logos",
+        "Tag":[
+            {
+                "TagId":"3",
+                "TagName":"Articles"
+            }
+        ],
+        "Description":"Essential Traits of Iconic Logos",
+        "Votes":"25"
+    },
+    {
+        "ProjectId":"19",
+        "ProjectName":"Website Optimization: 17 Tools To Help Improve Your Website in 2019",
+        "Tag":[
+            {
+                "TagId":"5",
+                "TagName":"Web Design"
+            }
+        ],
+        "Description":"Tools To Help Improve Your Website in 2019",
+        "Votes":"31"
+    },
+    {
+        "ProjectId":"20",
+        "ProjectName":"Portfolio project page infinite scroll navigation - Akufen Studio",
+        "Tag":[
+            {
+                "TagId":"6",
+                "TagName":"The Best of Navigation"
+            }
+        ],
+        "Description":"Portfolio project page infinite scroll navigation - Akufen Studio",
+        "Votes":"44"
+    }
+]
+
+Tag:
+
+[
+    {
+        "TagId":"1",
+        "TagName":"Directory"
+    },
+    {
+        "TagId":"2",
+        "TagName":"Video"
+    },
+    {
+        "TagId":"3",
+        "TagName":"Articles"
+    },
+    {
+        "TagId":"4",
+        "TagName":"Transitions"
+    },
+    {
+        "TagId":"5",
+        "TagName":"Web Design"
+    },
+    {
+        "TagId":"6",
+        "TagName":"The Best of Navigation"
+    }
+]

@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model Awwwards.Models.ProjectViewModel
+
+@Html.Partial("Promotions", Model.Promotions)
+@Html.Partial("Medias", Model.Medias)
+@Html.Partial("Agencies", Model.Agencies)
+@Html.Partial("News", Model.News)
+@Html.Partial("MoreButton", null)
+

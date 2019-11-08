@@ -1,0 +1,10 @@
+﻿@model Awwwards.Models.ProjectModel
+
+@if (Model.Id != "20")
+{
+    @Html.Partial("ProjectImage", Model)
+}
+else
+{
+    @Html.Partial("ProjectVideo", Model)
+}

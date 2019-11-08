@@ -1,0 +1,18 @@
+﻿@model Awwwards.Models.ProjectModel
+
+<div class="box-heading">
+    <h4 class="heading-underline style-row">Similar websites</h4>
+</div>
+<div class="grid search-container js-grid">
+    <ul class="list-items list-flex js-elements-container">
+
+        @foreach (var project in Model.SimilarProjects)
+        {
+            <li class="col-6 js-collectable" data-model="{&quot;likes&quot;:3,&quot;id&quot;:33547,&quot;images&quot;:{&quot;thumbnail&quot;:&quot;submissions\/2018\/07\/5b3a81c0793a7.png&quot;},&quot;slug&quot;:&quot;world-cup-prediction&quot;,&quot;title&quot;:&quot;World Cup Prediction&quot;,&quot;createdAt&quot;:1530605174,&quot;tags&quot;:[&quot;Sports&quot;,&quot;Web &amp; Interactive&quot;,&quot;Animation&quot;,&quot;HTML5&quot;,&quot;SVG&quot;,&quot;Red&quot;,&quot;Yellow&quot;,&quot;Transitions&quot;,&quot;Data Visualization&quot;,&quot;Experimental&quot;,&quot;GSAP Animation&quot;,&quot;Three.js&quot;,&quot;3D&quot;,&quot;Filters and Effects&quot;,&quot;Ruby&quot;,&quot;Microinteractions&quot;],&quot;type&quot;:&quot;submission&quot;}">
+
+                @Html.Partial("ProductMedia", project)
+
+            </li>
+        }
+    </ul>
+</div>

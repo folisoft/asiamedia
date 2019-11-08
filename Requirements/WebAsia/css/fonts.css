@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'utm_helveins';
+    src: url('UTMHelvetIns.eot')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_helveins/UTMHelvetIns.eot*/;
+    src: url('UTMHelvetIns.eot-#iefix')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_helveins/UTMHelvetIns.eot?#iefix*/ format('embedded-opentype'),
+         url('UTMHelvetIns.woff')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_helveins/UTMHelvetIns.woff*/ format('woff'),
+         url('UTMHelvetIns.ttf')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_helveins/UTMHelvetIns.ttf*/ format('truetype'),
+         url('UTMHelvetIns.svg#utm_helveins')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_helveins/UTMHelvetIns.svg#utm_helveins*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,58 @@
+﻿<nav class="nav-main" id="nav-main">
+    <div class="top">
+        <div class="header">
+            <div class="pull-left">
+                <span class="link-1 js-nav-menu" data-menu-id="menu-lang">
+                    English
+                </span>
+                <span class="bt-lang">
+                    <svg class="ico-svg" viewBox="0 0 14 9.334">
+                        <use xlink:href=".//assets/images/sprite-icons.svg#flag_en"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="pull-right">
+                <div class="bt-close js-close-menu text-uppercase">close</div>
+            </div>
+        </div>
+        <ul class="menu active" data-menu-name="English" data-menu-id="menu-lang" id="menu-main">
+            <li class="active"><a href="@Url.Action("Index","Home")" class="item">Home</a></li>
+            <li><a href="@Url.Action("Index","Home")" class="item">Collections</a></li>
+            
+            <li>
+                <a href="@Url.Action("Index", "Product", new { id = "20" })"  class="item">
+                    Conferences
+                    <i class="first-top">Lịch phát sóng 'Vincom Trần Duy Hưng (Hà Nội)'</i>
+                    <i>@DateTime.Now.ToString("dddd, dd MMMM yyyy")</i>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu" data-menu-name="BACK" data-menu-id="menu-main" id="menu-lang">
+
+            <li lang="en" class="js-change-locale active" data-locale="en">
+                <span class="item">
+                    Việt Nam
+                    <span class="bt-check active">
+                        <span class="bt-content"></span>
+                    </span>
+                </span>
+            </li>
+            <li lang="es" class="js-change-locale " data-locale="es">
+                <span class="item">
+                    English
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div class="box-bottom">
+        <div class="box-version">
+            <span class="box-version-text">Activate black option</span>
+            <div class="input-check-toggle check-small ">
+                <input id="version-color" type="checkbox" class="js-dark">
+                <label for="version-color">
+                    <span class="ball"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</nav>

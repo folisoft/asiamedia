@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Awwwards.Models.ProjectModel
+
+<div class="block pt-0">
+    <div class="box-site2-head">
+        <div class="inner js-single-element"
+             data-model="{&quot;likes&quot;:20,&quot;id&quot;:37927,&quot;images&quot;:{&quot;thumbnail&quot;:&quot;submissions\/2019\/09\/5d7ff5c67cbd2169874002.png&quot;},&quot;slug&quot;:&quot;solar-digital&quot;,&quot;title&quot;:&quot;SOLAR DIGITAL&quot;,&quot;createdAt&quot;:1568788081,&quot;tags&quot;:[&quot;Business &amp; Corporate&quot;,&quot;Design Agencies&quot;,&quot;Web &amp; Interactive&quot;,&quot;Animation&quot;,&quot;Clean&quot;,&quot;CSS3&quot;,&quot;Flat Design&quot;,&quot;HTML5&quot;,&quot;Minimal&quot;,&quot;Portfolio&quot;,&quot;SVG&quot;,&quot;Black&quot;,&quot;Red&quot;,&quot;White&quot;,&quot;Three.js&quot;,&quot;Laravel&quot;,&quot;About Page&quot;,&quot;Vue.js&quot;],&quot;type&quot;:&quot;submission&quot;}"
+             data-typebox="submission:37927">
+            <div class="box-breadcrumb">
+                <div class="box-left">
+                    <div>
+                        <a href="@Url.Action("Index","Home")">Collect</a> / <strong>
+                            SOLAR
+                            DIGITAL
+                        </strong> from <strong>@Model.Author.Location</strong>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="box-users-likes">
+                        <ul class="list-users">
+                            @foreach (var author in Model.VoteAuthors)
+                            {
+                                <li>
+                                    <div class="item js-user" data-username="DCdesign">
+                                        <a href="@Url.Action("Index","Home")">
+                                            <img src="@Url.Content(author.AvatarUrl)" width="34" height="34" alt="DCdesign"
+                                                 class="lazy lazy-loaded">
+                                        </a>
+                                    </div>
+                                </li>
+                            }
+
+                        </ul>
+
+
+                        <span class="bt-item bt-default bt-likeit js-bt-like js-collect-like ">
+                            <img class="ico-svg ico-15 icon-inline" style="color: black; top: 10px;" src="~/Content/images/icons/heart_black.svg" />
+                            <span class="number" style="color: black; font-weight: bold;">
+                                @Model.Votes
+                            </span>
+                        </span>
+                        <strong class="bt-item bt-default js-collect">Collect</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner width-2">
+
+            <div class="box-screenshot">
+                @Html.Partial("ProductBigMedia", Model)
+            </div>
+
+            <div class="box-block site-details">
+                @Html.Partial("ProductInfo", Model)
+            </div>
+
+            <div class="box-page-votation" id="voting">
+                @Html.Partial("VoteListing", Model)
+            </div>
+
+            <div class="box-page-credits js-credits-container">
+                @Html.Partial("CreditListing", Model)
+            </div>
+            <div class="box-page-credits js-credits-container">
+                @Html.Partial("SimilarProduct", Model)
+            </div>
+        </div>
+    </div>
+</div>

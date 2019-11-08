@@ -1,0 +1,95 @@
+﻿@model Awwwards.Models.ProjectModel
+
+    <div class="box-item">
+        <figure class="rollover">
+            <a href="@Url.Action("Index", "Product", new { id = Model.Id })">
+                <div class="box-photo">
+                    <img src="@Url.Content(Model.MediaUrl)"
+                         data-src="@Url.Content(Model.MediaUrl)" alt="@Model.Author.Name" width="417"
+                         height="298" class="lazy" />
+                </div>
+            </a>
+
+            <div class="hover-item top">
+                <span class="js-options-collectable"></span>
+                <span class="bt-item bt-default bt-likeit js-bt-like js-collect-like">
+                    <img class="ico-svg ico-15 icon-inline" src="~/Content/images/icons/heart.svg" />
+                    <span class="number">
+                        @Model.Votes
+                    </span>
+                </span>
+                <strong class="bt-item bt-default js-collect">Collect</strong>
+
+            </div>
+            <div class="hover-item bottom">
+                <a class="js-visit-item bt-item bt-link" href="@Url.Action("Index", "Product", new { id = Model.Id })"
+                   data-identifier="zhenya-rynzhuk-folio-2019" data-type="submission" target="_blank"
+                   rel="noopener nofollow">
+                    <img class="icon-inline" src="~/Content/images/icons/forward.svg" />
+                </a>
+            </div>
+
+        </figure>
+        <div class="box-info">
+            <div class="content">
+                <div class="row">
+                    <h3><a href="@Url.Action("Index", "Product", new { id = Model.Id })">@Model.Name</a></h3>
+                </div>
+                <div class="row row-2col">
+                    <div class="box-left">From @Model.Author.Location</div>
+
+                    <div class="box-right">
+                        @Model.CreatedDate
+                    </div>
+                </div>
+            </div>
+            <div class="footer style2">
+                <div class="box-left">
+                    <div class="box-byuser js-tooltip-user">
+                        <div class="item js-user" data-username="active_theory">
+                            <a href="~/Home">
+                                <img src="@Url.Content(Model.Author.AvatarUrl)"
+                                     data-src="~/Content/images/products/3.jpg" width="27" height="27"
+                                     alt="Active Theory" class="lazy" />
+                            </a>
+                        </div>
+                        <div class="by">
+                            by <strong><a href="@Url.Action("Index", "Product", new { id = Model.Id })" class="text-black">@Model.Author.Name</a></strong>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box-right">
+                    <ul class="list-tags size-small">
+                        <li class="hm">
+                            <div class="tooltip">
+                                <span class="item item-hm">@Model.Author.ProjectAmt spot</span>
+                                <div class="box-tooltip">
+                                    <div class="tooltip-text">Remain</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dotd">
+                            <div class="tooltip">
+                                <span class="item item-dotd">@Model.Author.VoteAmt spot</span>
+                                <div class="box-tooltip">
+                                    <div class="tooltip-text">Hour of Media</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sotd">
+                            <div class="tooltip">
+                                <span class="item item-sotd">@Model.Author.CertAmt spot</span>
+                                <div class="box-tooltip">
+                                    <div class="tooltip-text">Sales Of The Day</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>

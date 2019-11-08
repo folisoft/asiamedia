@@ -1,0 +1,115 @@
+﻿@model Awwwards.Models.ProjectModel
+
+<div class="box-information">
+    <div class="header">
+        <div class="box-left">
+            <span class="title">Last user votes</span>
+        </div>
+        <div class="box-right">
+            <div class="tooltip">
+                <a href="@Url.Action("Index","Home")" class="bt-info"></a>
+                <div class="box-tooltip">
+                    <div class="tooltip-text">More info</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="user_votes" class="list-users-votes">
+        <li>
+            <div class="box-left">
+                <div class="avatar">
+                    <a href="@Url.Action("Index","Home")">
+                        <img src="https://assets.awwwards.com/awards/media/cache/thumb_user_70/avatar/195221/5a72a9db6d781.jpg" width="50" height="50" alt="Iquadart">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="rows">
+                        <div class="row">
+                            <strong><a href="@Url.Action("Index","Home")">Iquadart</a></strong>
+                            <i>from</i> <strong>Belarus</strong>
+                        </div>
+                        <div class="row">
+                            <strong>
+                                <a href="@Url.Action("Index","Home")" rel="noopener nofollow"
+                                   target="_blank">iquadart.com</a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-right">
+                <ul class="list-circle-notes js-circle-notes">
+                    <li data-note="9" data-size="40" class="design">
+                        <div class="tooltip">
+                            <svg style="width: 40px; height: 40px;">
+                                <circle r="19" cy="20" cx="20"
+                                        style="stroke-dasharray: 119.381; stroke-dashoffset: 11.9381;">
+                                </circle>
+                            </svg>
+                            <div class="box-tooltip">
+                                <div class="tooltip-text">Design</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-note="7" data-size="40" class="usability">
+                        <div class="tooltip">
+                            <svg style="width: 40px; height: 40px;">
+                                <circle r="19" cy="20" cx="20"
+                                        style="stroke-dasharray: 119.381; stroke-dashoffset: 35.8142;">
+                                </circle>
+                            </svg>
+                            <div class="box-tooltip">
+                                <div class="tooltip-text">Usability</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-note="9" data-size="40" class="creativity">
+                        <div class="tooltip">
+                            <svg style="width: 40px; height: 40px;">
+                                <circle r="19" cy="20" cx="20"
+                                        style="stroke-dasharray: 119.381; stroke-dashoffset: 11.9381;">
+                                </circle>
+                            </svg>
+                            <div class="box-tooltip">
+                                <div class="tooltip-text">Creativity</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-note="9" data-size="40" class="content">
+                        <div class="tooltip">
+                            <svg style="width: 40px; height: 40px;">
+                                <circle r="19" cy="20" cx="20"
+                                        style="stroke-dasharray: 119.381; stroke-dashoffset: 11.9381;">
+                                </circle>
+                            </svg>
+                            <div class="box-tooltip">
+                                <div class="tooltip-text">Content</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="list-number-awards">
+                    <li>
+                        <div class="tooltip">
+                            <div class="box-item box-usertype js-usertype " data-type="user_type_pro">
+                                <span class="text-uppercase">Pro </span>
+                                <svg class="ico-svg" viewBox="0 0 11 14">
+                                    <use xlink:href="./assets/images/sprite-icons.svg#user-pro">
+                                    </use>
+                                </svg>
+
+                            </div>
+                            <div class="box-tooltip">
+                                <div class="tooltip-text">Pro</div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+                <div class="item">
+                    <span class="note">8.40</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

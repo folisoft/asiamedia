@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Asia Media VietNam</title>
+    <link rel="stylesheet" href="~/Content/css/index.css" />
+</head>
+<body class="home ht-visible" data-debug="0">
+    <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc"
+         class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-invisible" style="display: none;">
+        <!--googleoff: all-->
+        <div class="box-cookies">
+            <span id="cookieconsent:desc" class="cc-message">
+                This website uses cookies to ensure
+                you get the best experience on our website. <a href="/cookies-policy/">Cookies Policy</a>.
+            </span><span aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-close">GOT IT!</span>
+        </div>
+        <!--googleon: all-->
+    </div>
+    <div class="wrapper ">
+        @Html.Partial("_TopMenuPartial", null)
+        @Html.Partial("_LeftMenuPartial", null)
+
+        <section id="content">
+            <div class="content-view">
+                @RenderBody()
+            </div>
+        </section>
+        @Html.Partial("_FooterPartial", null)
+    </div>
+
+
+    <script src="~/Content/js/home.js" asp-append-version="true"></script>
+    <script src="~/Content/js/index.js" asp-append-version="true"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+
+
+    <style>
+        audio::-webkit-media-controls-timeline,
+        video::-webkit-media-controls-timeline {
+            display: none;
+        }
+    </style>
+    
+</body>
+</html>

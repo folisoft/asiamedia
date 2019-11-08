@@ -1,0 +1,222 @@
+﻿[
+  {
+    "Id": "1",
+    "Name": "Trần Duy Hưng",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/2.jpg",
+    "AuthorId": "1",
+    "CreatedDate": "August 15, 2019",
+    "Description": "Phố Trần Duy Hưng",
+    "Votes": "20"
+  },
+  {
+    "Id": "2",
+    "Name": "Phan Thiet city",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/5.jpg",
+    "AuthorId": "2",
+    "CreatedDate": "August 14, 2019",
+    "Description": "Phan Thiet city",
+    "Votes": "18"
+  },
+  {
+    "Id": "3",
+    "Name": "Cher Ami",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/7.jpg",
+    "AuthorId": "3",
+    "CreatedDate": "August 13, 2019",
+    "Description": "Cher Ami",
+    "Votes": "11"
+  },
+  {
+    "Id": "4",
+    "Name": "Frankly Steve",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/10.jpg",
+    "AuthorId": "4",
+    "CreatedDate": "August 12, 2019",
+    "Description": "Frankly Steve",
+    "Votes": "22"
+  },
+  {
+    "Id": "5",
+    "Name": "Revølve with Augmented Reality",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/11.jpg",
+    "AuthorId": "5",
+    "CreatedDate": "August 11, 2019",
+    "Description": "Augmented Reality",
+    "Votes": "26"
+  },
+  {
+    "Id": "6",
+    "Name": "Hovercraft",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/14.jpg",
+    "AuthorId": "6",
+    "CreatedDate": "August 10, 2019",
+    "Description": "Hovercraft",
+    "Votes": "14"
+  },
+  {
+    "Id": "7",
+    "Name": "The Balcony Garden",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/9.jpg",
+    "AuthorId": "7",
+    "CreatedDate": "August 09, 2019",
+    "Description": "The Balcony Garden",
+    "Votes": "45"
+  },
+  {
+    "Id": "8",
+    "Name": "Ortec.com",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/85.jpg",
+    "AuthorId": "8",
+    "CreatedDate": "August 08, 2019",
+    "Description": "Ortec",
+    "Votes": "29"
+  },
+  {
+    "Id": "9",
+    "Name": "Discover",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/46.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 10, 2019",
+    "Description": "Discover",
+    "Votes": "20"
+  },
+  {
+    "Id": "10",
+    "Name": "Big Drop Inc",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/83.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 10, 2019",
+    "Description": "Big Drop",
+    "Votes": "20"
+  },
+  {
+    "Id": "11",
+    "Name": "Avex",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/45.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 10, 2019",
+    "Description": "Avex",
+    "Votes": "15"
+  },
+  {
+    "Id": "12",
+    "Name": "Crafted",
+    "TagId": "1",
+    "TagName": "Directory",
+    "MediaUrl": "~/Content/images/products/81.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 15, 2019",
+    "Description": "Crafted",
+    "Votes": "24"
+  },
+  {
+    "Id": "13",
+    "Name": "First Speakers Revealed for Awwwards Conference in Tokyo 2020",
+    "TagId": "1",
+    "TagName": "Articles",
+    "MediaUrl": "~/Content/images/products/50.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 15, 2019",
+    "Description": "First Speakers Revealed for Awwwards Conference in Tokyo 2020",
+    "Votes": "20"
+  },
+  {
+    "Id": "14",
+    "Name": "+100 Inspirational Talks for Digital Thinkers",
+    "TagId": "1",
+    "TagName": "Articles",
+    "MediaUrl": "~/Content/images/products/80.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 15, 2019",
+    "Description": "Inspirational Talks for Digital Thinkers",
+    "Votes": "20"
+  },
+  {
+    "Id": "20",
+    "Name": "Lịch phát sóng 'Vincom Trần Duy Hưng (Hà Nội)",
+    "TagId": "2",
+    "TagName": "Lịch phát sóng 'VincomTranDuyHung'",
+    "MediaUrl": "~/Content/videos/TVC Màn hình led chợ TP Tuy Hòa.mp4",
+    "AuthorId": "0",
+    "CreatedDate": "Oct 05, 2019",
+    "Description": "Lịch phát sóng 'Vincom Trần Duy Hưng (Hà Nội) - Asia Media VietNam",
+    "Votes": "100"
+  },
+  {
+    "Id": "15",
+    "Name": "Colorful animated transition",
+    "TagId": "2",
+    "TagName": "Transitions",
+    "MediaUrl": "~/Content/images/products/30.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 15, 2019",
+    "Description": "Colorful animated transition",
+    "Votes": "13"
+  },
+  {
+    "Id": "16",
+    "Name": "Talk: Mailchimp's Director of Brand Design, Brandy Porter - Being weird will grow your brand",
+    "TagId": "1",
+    "TagName": "Video",
+    "MediaUrl": "~/Content/images/products/79.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 10, 2019",
+    "Description": "Mailchimp's Director of Brand Design",
+    "Votes": "27"
+  },
+  {
+    "Id": "17",
+    "Name": "Talk: Human Centered Design with Design Lead at Fantasy Interactive, Peter Smart",
+    "TagId": "1",
+    "TagName": "Video",
+    "MediaUrl": "~/Content/images/products/78.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 13, 2019",
+    "Description": "Human Centered Design with Design Lead at Fantasy Interactive",
+    "Votes": "16"
+  },
+  {
+    "Id": "18",
+    "Name": "5 Essential Traits of Iconic Logos",
+    "TagId": "1",
+    "TagName": "Articles",
+    "MediaUrl": "~/Content/images/products/51.jpg",
+    "AuthorId": "0",
+    "CreatedDate": "August 13, 2019",
+    "Description": "Essential Traits of Iconic Logos",
+    "Votes": "25"
+  },
+  {
+    "Id": "19",
+    "Name": "Website Optimization: 17 Tools To Help Improve Your Website in 2019",
+    "TagId": "1",
+    "TagName": "Web Design",
+    "MediaUrl": "~/Content/images/products/77.jpg",
+    "AuthorId": "13",
+    "CreatedDate": "August 01, 2019",
+    "Description": "Tools To Help Improve Your Website in 2019",
+    "Votes": "31"
+  }
+]

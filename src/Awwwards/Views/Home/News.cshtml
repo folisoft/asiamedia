@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Awwwards.Models.ProjectModel>
+
+<div class="block pt-0">
+    <div class="inner">
+        <div class="box-heading pt-0">
+            <div class="box-left">
+                <h2 class="title">
+                    <a href="~/Home" class="text-black">
+                        News
+                    </a>
+                </h2>
+                <span class="heart-pulsate">
+                    <svg class="ico-svg" viewbox="0 0 15 14">
+                        <use xlink:href="~/Content/images/icons/heart.svg"></use>
+                    </svg>
+
+                </span>
+                <div class="inline-block">
+                    <span class="has-tablet">Technology and Hot Trend</span>
+                    <span class="has-mobile">Hot Trend</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid inspiration js-grid" data-page="2" data-route-load-more="tv_ajax_load_more_inspiration">
+            <ul class="list-items list-flex inspiration-list-one js-elements-container">
+                @foreach (var project in Model)
+                {
+                    <li class="col-3 js-collectable"
+                        data-model="{&quot;likes&quot;:44,&quot;id&quot;:37512,&quot;images&quot;:{&quot;thumbnail&quot;:&quot;submissions\/2019\/08\/5d448cb551e12918554949.png&quot;},&quot;slug&quot;:&quot;rick-and-morty&quot;,&quot;title&quot;:&quot;Rick and Morty&quot;,&quot;createdAt&quot;:1565827200,&quot;tags&quot;:[&quot;Art &amp; Illustration&quot;,&quot;Games &amp; Entertainment&quot;,&quot;Web &amp; Interactive&quot;,&quot;Animation&quot;,&quot;WebGL&quot;,&quot;Blue&quot;,&quot;Green&quot;,&quot;Yellow&quot;,&quot;Transitions&quot;,&quot;Gallery&quot;,&quot;Illustration&quot;,&quot;Social Integration&quot;,&quot;Interaction Design&quot;],&quot;type&quot;:&quot;submission&quot;}">
+
+                        @Html.Partial("ProductMedia", project)
+
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

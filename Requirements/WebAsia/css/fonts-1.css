@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'utm_avo';
+    src: url('UTMAvo.eot')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_avo/UTMAvo.eot*/;
+    src: url('UTMAvo.eot-#iefix')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_avo/UTMAvo.eot?#iefix*/ format('embedded-opentype'),
+         url('UTMAvo.woff')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_avo/UTMAvo.woff*/ format('woff'),
+         url('UTMAvo.ttf')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_avo/UTMAvo.ttf*/ format('truetype'),
+         url('UTMAvo.svg#utm_avoregular')/*tpa=http://fonts.matbaomedia.com/fonts-library/utm_avo/UTMAvo.svg#utm_avoregular*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

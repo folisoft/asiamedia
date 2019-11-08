@@ -1,0 +1,144 @@
+﻿@model IEnumerable<Awwwards.Models.ProjectModel>
+
+<div class="block p-0" id="block-directory">
+    <div class="inner">
+        <div class="box-heading p-0">
+            <div class="box-left">
+                <h2 class="title">
+                    <a href="~/Home"  class="text-black">
+                        Agencies
+                    </a>
+                </h2>
+                <span>Let go to our club</span>
+            </div>
+            <div class="box-right">
+                <span>
+                    <strong>3,116</strong> Agencies
+                </span>
+                <a href="~/Home"  class="bt-default black">Join the club!</a>
+            </div>
+        </div>
+        <div class="grid">
+            <ul class="list-items list-flex list-one-row js-agency-content">
+                <li class="col-3">
+                    <div class="box-item box-style8">
+                        <div class="box-info">
+                            <div class="content">
+                                <div class="row">
+                                    <strong>Professional Directory</strong>
+                                </div>
+                                <div class="row row-auto">
+                                    <div class="title">
+                                        Discover the best agencies
+                                        <div>
+                                            <div id="js-country-selector" class="box-dropdown">
+                                                <div class="option-active">Hà Nội</div>
+                                                <ul class="options style2">
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Hà Nội
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Hải Phòng
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Quảng Trị
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Huế
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Đà Nẵng
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Hội An
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Quy Nhơn
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Tuy Hòa
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Nha Trang
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Phan Thiết
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Biên Hòa
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            HCM
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Long An
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+                                                        <a class="item-option" href="~/Home" >
+                                                            Cần Thơ
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <span class="text-gray">0 profiles found</span>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="box-left">
+                                    <strong><a href="~/Home"  class="bt-default small">Discover</a></strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                @foreach (var project in Model.Skip(1))
+                {
+                    <li class="col-3 js-collectable"
+                        data-model="{&quot;likes&quot;:44,&quot;id&quot;:37512,&quot;images&quot;:{&quot;thumbnail&quot;:&quot;submissions\/2019\/08\/5d448cb551e12918554949.png&quot;},&quot;slug&quot;:&quot;rick-and-morty&quot;,&quot;title&quot;:&quot;Rick and Morty&quot;,&quot;createdAt&quot;:1565827200,&quot;tags&quot;:[&quot;Art &amp; Illustration&quot;,&quot;Games &amp; Entertainment&quot;,&quot;Web &amp; Interactive&quot;,&quot;Animation&quot;,&quot;WebGL&quot;,&quot;Blue&quot;,&quot;Green&quot;,&quot;Yellow&quot;,&quot;Transitions&quot;,&quot;Gallery&quot;,&quot;Illustration&quot;,&quot;Social Integration&quot;,&quot;Interaction Design&quot;],&quot;type&quot;:&quot;submission&quot;}">
+
+                        @Html.Partial("ProductMedia", project)
+
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

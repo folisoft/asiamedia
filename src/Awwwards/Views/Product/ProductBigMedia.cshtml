@@ -1,0 +1,81 @@
+﻿@model Awwwards.Models.ProjectModel
+
+@if (Model.Id != "20")
+{
+    <figure class="rollover">
+        <a href="@Url.Action("Index", "Home")" data-identifier="acoustic-garage" data-type="submission" class="js-visit-item item-link" target="_blank"></a>
+
+        <img class="lazy" src="@Url.Content(Model.MediaUrl)" data-src="@Url.Content(Model.MediaUrl)" width="918" height="656" alt="Acoustic Garage" />
+
+        <div class="ribbon">
+            <img src="https://assets.awwwards.com/assets/images/ribbons/nominee_white_left.png" srcset="https://assets.awwwards.com/assets/images/ribbons/nominee_white_left@2x.png 2x" alt="Nominee" />
+        </div>
+        <div class="hover-item bottom">
+            <a class="bt-item bt-link" href="~/Home" target="_blank" rel="noopener nofollow">
+            </a>
+        </div>
+    </figure>
+
+}
+else
+{
+    <figure class="rollover" style="display: unset; background: unset;transition: unset;opacity: 1;">
+        <a href="@Url.Action("Index", "Home")" data-identifier="acoustic-garage" data-type="submission" class="js-visit-item item-link" target="_blank"></a>
+
+        <video id="video_big_size" class="video-item lazy-video lazy-loaded video" playsinline controls controlsList="nodownload"
+               nowAt="@Model.NowAt" startDate="@Model.PlayAt" duration="@Model.Duration" width="417" height="298"
+               poster="https://assets.awwwards.com/awards/external/2019/09/5d824d03361ed853533197_static.jpeg" muted="" loop="">
+            <source src="@Url.Content(Model.MediaUrl)" type="video/mp4">
+        </video>
+        <div class="ribbon">
+            <img src="https://assets.awwwards.com/assets/images/ribbons/nominee_white_left.png" srcset="https://assets.awwwards.com/assets/images/ribbons/nominee_white_left@2x.png 2x" alt="Nominee" />
+        </div>
+        <div class="hover-item bottom">
+            <a class="bt-item bt-link" href="https://acoustics.autoneum.com/" target="_blank" rel="noopener nofollow">
+            </a>
+        </div>
+    </figure>
+
+    <script>
+
+        var startDateAttr = 'startDate';
+        var durationAttr = 'duration';
+        var nowAttr = 'nowAt';
+
+        var video = document.getElementById('video_big_size');
+        if (video) {
+            var serverTime = new Date(new Date(video.getAttribute(nowAttr)).getTime());
+            var startDate = new Date(new Date(video.getAttribute(startDateAttr)).getTime());
+
+            if (startDate.getTime() <= serverTime.getTime()) {
+                setInterval(function () {
+                serverTime = new Date(serverTime.getTime() + 1000);
+                }, 1000);
+
+                video.addEventListener('play', function () {
+                    const startDate = new Date(video.getAttribute(startDateAttr));
+                    const currentTime = (serverTime.getTime() - startDate.getTime());
+
+                    const endTime = video.getAttribute(durationAttr) * 60 * 1000;
+
+                    const canPlay = currentTime >= 0 && currentTime <= endTime;
+                    console.log(currentTime, endTime, canPlay);
+                    if (!canPlay) {
+                        this.pause();
+                    } else {
+                        video.currentTime = (currentTime / 1000);
+                    }
+                });
+            }
+        }
+        
+    </script>
+}
+
+
+
+<div class="clear"></div>
+
+<div class="box-vote-site" data-opinions="[]">
+    <div class="button js-votenow" style="width: 100%">VOTE NOW</div>
+</div>

@@ -1,0 +1,26 @@
+﻿[
+  {
+    "TagId": "1",
+    "TagName": "Directory"
+  },
+  {
+    "TagId": "2",
+    "TagName": "Video"
+  },
+  {
+    "TagId": "3",
+    "TagName": "Articles"
+  },
+  {
+    "TagId": "4",
+    "TagName": "Transitions"
+  },
+  {
+    "TagId": "5",
+    "TagName": "Web Design"
+  },
+  {
+    "TagId": "6",
+    "TagName": "The Best of Navigation"
+  }
+]
